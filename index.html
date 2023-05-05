@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
     <title>Grocery List</title>
-</head>
-<body>
-   <h2>Grocery List</h2>
-    
-    <script src="./index.js"></script>
-</body>
+  </head>
+
+  <body>
+    <h1>Grocery List</h1>
+    <form action="add" method="get">
+      <label for="">Add Item</label>
+      <input type="text" name="item" />
+      <input id="addNeed" type="submit" value="Need" />
+      <input id="addHave" type="submit" value="Have" />
+    </form>
+    <h2>Need:</h2>
+    <ul class="list">
+      <li>
+        <input type="checkbox" name="item" />cupboard<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />chair<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />table<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />desk <a href="#">&#10006;</a>
+      </li>
+    </ul>
+    <h2>Have:</h2>
+    <ul class="list">
+      <li>
+        <input type="checkbox" name="item" />sandpaper<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />hammer<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />saw<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />vanish<a href="#">&#10006;</a>
+      </li>
+    </ul>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>
