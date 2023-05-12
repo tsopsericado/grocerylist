@@ -5,8 +5,8 @@
 }
 
 body {
-  background: url(../images/istockphoto-1343544200-612x612.jpg);
-  font-family: "Lobster", "cursive";
+  background: url("../images/istockphoto-1343544200-612x612.jpg");
+  font-family: Lobster, cursive;
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid red; */
+
   background-color: #62629383;
   width: 60vw;
   margin-left: auto;
@@ -44,8 +44,6 @@ h1 {
   padding: 20px 20px 100px;
   margin-top: 30px;
   background-color: radial-gradient(#da2e2e #626293);
-  /* border: 2px solid blue; */
-  /* outline: 4px solid yellow; */
 }
 
 .forshopping li {
@@ -82,7 +80,7 @@ li button:hover {
   color: #fff;
 }
 
-#inputItem {
+#input-item {
   width: 20vw;
   padding: 10px;
   border-radius: 10px;
@@ -92,7 +90,7 @@ li button:hover {
   color: #626293;
 }
 
-#inputItem:focus {
+#input-item:focus {
   outline: none;
 }
 
@@ -143,11 +141,7 @@ li span:focus {
     width: 100%;
   }
 
-  .forshopping li {
-    /* margin-left: 10px; */
-  }
-
-  #inputItem {
+  #input-item {
     width: 250px;
     outline: 3px solid green;
   }
