@@ -5,48 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Grocery List</title>
   </head>
 
   <body>
-    <h1>Grocery List</h1>
-    <form action="add" method="get">
-      <label for="">Add Item</label>
-      <input type="text" name="item" />
-      <input id="addNeed" type="submit" value="Need" />
-      <input id="addHave" type="submit" value="Have" />
-    </form>
-    <h2>Need:</h2>
-    <ul class="list">
-      <li>
-        <input type="checkbox" name="item" />cupboard<a href="#">&#10006;</a>
-      </li>
-      <li>
-        <input type="checkbox" name="item" />chair<a href="#">&#10006;</a>
-      </li>
-      <li>
-        <input type="checkbox" name="item" />table<a href="#">&#10006;</a>
-      </li>
-      <li>
-        <input type="checkbox" name="item" />desk <a href="#">&#10006;</a>
-      </li>
-    </ul>
-    <h2>Have:</h2>
-    <ul class="list">
-      <li>
-        <input type="checkbox" name="item" />sandpaper<a href="#">&#10006;</a>
-      </li>
-      <li>
-        <input type="checkbox" name="item" />hammer<a href="#">&#10006;</a>
-      </li>
-      <li>
-        <input type="checkbox" name="item" />saw<a href="#">&#10006;</a>
-      </li>
-      <li>
-        <input type="checkbox" name="item" />vanish<a href="#">&#10006;</a>
-      </li>
-    </ul>
-
-    <script type="text/javascript" src="index.js"></script>
+    <div class="container">
+      <h1>Grocery List</h1>
+      <form class="form">
+        <input id="inputItem" type="text" placeholder="Enter your item here" />
+        <input id="addbutton" value="Add" type="submit" />
+      </form>
+      <ol class="forshopping"></ol>
+      <button class="clear d-none">Clear All</button>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
