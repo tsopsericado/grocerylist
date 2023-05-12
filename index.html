@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Grocery List</title>
-</head>
-<body>
-   
-    
-    <script src="./index.js"></script>
-</body>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Grocery List</h1>
+      <form class="form">
+        <input id="input-item" type="text" placeholder="Enter your item here" />
+        <input id="addbutton" value="Add" type="submit" />
+      </form>
+      <ol class="forshopping"></ol>
+      <button class="clear d-none">Clear All</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
